@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>book-study-notes</artifactId>
+        <groupId>org.free</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>java-concurrency-in-practice</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Java Concurrency in Practice/Java并发编程实战</name>
+    <url>http://jcip.net/</url>
+    <description>第16届Jolt大奖提名图书，Java并发编程必读佳作</description>
+
+    <dependencies>
+    </dependencies>
+</project>

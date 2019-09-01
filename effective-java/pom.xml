@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>book-study-notes</artifactId>
+        <groupId>org.free</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>effective-java</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Effective Java/Java最佳实践</name>
+    <url>https://github.com/jbloch/effective-java-3e-source-code</url>
+    <description>Java之父James Gosling鼎力推荐，Jolt获奖作品，Java程序员必备参考书</description>
+
+    <dependencies>
+    </dependencies>
+</project>
