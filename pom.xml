@@ -8,8 +8,8 @@
     <version>1.0</version>
     <packaging>pom</packaging>
 
-    <name>Book Study Notes/图书学习笔记</name>
-    <description>图书学习笔记，边"读->实践->思考->总结->`读`"(方法论)</description>
+    <name>Book Study Notes/读书学习笔记</name>
+    <description>读书学习笔记，边"读->实践->思考->总结->`读`"(方法论)</description>
     <url>https://github.com/edwardlee03/book-study-notes</url>
 
     <!-- ================ 多模块项目管理 ================ -->

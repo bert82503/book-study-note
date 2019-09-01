@@ -5,7 +5,7 @@ book-study-notes
 > 2019-09-01
 
 
-图书学习笔记，边**读->实践->思考->总结->`读`**(方法论)。
+读书学习笔记，边**读->实践->思考->总结->`读`**(方法论)。
 
 经典图书包括
 1. [\<The Java™ Tutorials/Java语言导学>](https://docs.oracle.com/javase/tutorial/) (Java核心团队成员编写，Java学习的权威指南)
