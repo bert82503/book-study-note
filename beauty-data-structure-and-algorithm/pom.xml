@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>book-study-notes</artifactId>
+        <groupId>org.free</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>beauty-data-structure-and-algorithm</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Beauty Data Structure and Algorithm/数据结构与算法之美</name>
+    <url>https://time.geekbang.org/column/intro/126</url>
+    <description>为工程师量身打造的数据结构与算法私教课</description>
+
+    <dependencies>
+    </dependencies>
+</project>

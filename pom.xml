@@ -18,6 +18,7 @@
         <module>java-concurrency-in-practice</module>
         <module>effective-java</module>
         <module>head-first-design-patterns</module>
+        <module>beauty-data-structure-and-algorithm</module>
     </modules>
 
     <!-- ================ 源代码管理 ================ -->
