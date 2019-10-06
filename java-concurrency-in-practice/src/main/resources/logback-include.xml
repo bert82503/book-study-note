@@ -1,0 +1,37 @@
+<included>
+    <!-- https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy -->
+<!--    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${LOG_HOME}/app.log</file>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">-->
+<!--            &lt;!&ndash; rollover daily &ndash;&gt;-->
+<!--            <fileNamePattern>${LOG_HOME}/app-%d{yyyy-MM-dd}.%i.log</fileNamePattern>-->
+<!--            &lt;!&ndash; each file should be at most 100MB, keep 30 days worth of history, but at most 5GB &ndash;&gt;-->
+<!--            <maxFileSize>100MB</maxFileSize>-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--            <totalSizeCap>5GB</totalSizeCap>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder>-->
+<!--            <pattern>%date [%thread] %-5level %logger{35} - [%X{uid}] [%X{traceId}] [%X{custom}] %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <!-- 异步日志 -->
+    <!-- https://logback.qos.ch/manual/appenders.html#AsyncAppender -->
+<!--    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">-->
+<!--        &lt;!&ndash; The maximum capacity of the blocking queue. By default, queueSize is set to 256. &ndash;&gt;-->
+<!--        &lt;!&ndash; 更改阻塞队列的最大容量，该值会影响性能(实现类为ArrayBlockingQueue) &ndash;&gt;-->
+<!--        <queueSize>1024</queueSize>-->
+<!--        &lt;!&ndash; 默认的，如果队列的80%已满，则会丢弃trace、debug、info级别的日志 &ndash;&gt;-->
+<!--        &lt;!&ndash; 不丢失日志 &ndash;&gt;-->
+<!--        <discardingThreshold>0</discardingThreshold>-->
+<!--        &lt;!&ndash; the appender will just drop the message and will not block your application &ndash;&gt;-->
+<!--        <neverBlock>true</neverBlock>-->
+<!--        <appender-ref ref="FILE"/>-->
+<!--    </appender>-->
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date [%thread] %-5level %logger{35} - [%X{uid}] [%X{traceId}] [%X{custom}] %msg%n</pattern>
+        </encoder>
+    </appender>
+</included>

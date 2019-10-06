@@ -46,6 +46,11 @@
     <dependencyManagement>
         <dependencies>
             <!-- ================ 三方库 ================ -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.2.3</version>
+            </dependency>
 
             <!-- ================ Test ================ -->
             <dependency>
@@ -65,6 +70,12 @@
 
     <!-- ================ 所有项目的公共依赖 ================ -->
     <dependencies>
+        <!-- ================ 三方库 ================ -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+
         <!-- ================ Test ================ -->
         <dependency>
             <groupId>org.testng</groupId>

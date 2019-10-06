@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+    <!-- 定义日志文件的存储地址，勿在Logback的配置中使用相对路径 -->
+    <property name="LOG_HOME" value="${LOG_HOME:-logs}"/>
+    <contextName>java-concurrency-in-practice</contextName>
+
+    <include resource="logback-include.xml"/>
+
+    <root level="INFO">
+<!--        <appender-ref ref="FILE"/>-->
+<!--        <appender-ref ref="ASYNC"/>-->
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
