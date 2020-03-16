@@ -41,5 +41,17 @@ public class Scanning {
             }
             System.out.println("sum = " + sum);
         }
+
+        // The "standard" input stream.
+        try (Scanner scanner = new Scanner(System.in)) {
+            scanner.useDelimiter(System.lineSeparator());
+            while (scanner.hasNext()) {
+                String next = scanner.next();
+                if (next == null || next.isEmpty()) {
+                    System.exit(1);
+                }
+                System.out.println(next);
+            }
+        }
     }
 }
